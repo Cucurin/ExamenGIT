@@ -1,136 +1,15 @@
-Este es el commit del main que deberá ser sustituidos por las versiones futuras, elimina esto cuando surjan conflictos con el examen A y el examen B. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Contesta la pregunta y realiza un commit a la rama correspondiente a la pregunta (examenA o examenB).
+PREGUNTA A - Explica con tus propias palabras qué es y cómo funciona git. Para ello define y explica la función de los elementos que lo forman: (commit, branch, tree, blob). 
+Commit - Es el archivo ya una vez subido a GIT
+Branch - Es una rama que te permite tomar varias direcciones de lo que quieres hacer, ejemplo: Original = Agua, Rama1 = Agua y Pan, Rama2 = Agua, Arroz
+Tree - Es un conjunto de ramas de GIT
+PREGUNTA B - Explica los cuatro "lugares" donde pueden encontrarse los archivos que forman parte de un repositorio GIT. Nombra el comando para mover un archivo de un espacio a otro con la siguiente sintaxys: [LugarInicial - LugarFinal => comando]
+LOS LUGARES EN LOS QUE SE PUEDEN ENCONTRAR LOS ARCHIVOS QUE FORMAN PARTE DE GIT SON, CUANDO ESTAN EN EL ESCRITORIO QUE NO SE HAN AÑADIDO NI NADA, DESPUES CUANDO ESTE PREPARADO PARA SUBIRSE, CUANDO ESTA SUBIDO, Y CUANDO ESTA SUBIDO A GITHUB
+[ESCRITORIO - ARÉA DE ESPERA => git add text.txt]
+[ARÉA DE ESPERA - ESCRITORIO => git reset text.txt]
+[ARÉA DE ESPERA - SUBIDO => git commit -m "nombre commit"]
+[ESCRITORIO - SUBIDO => git commit -a -m "nombre commit"]
+[SUBIDO - ARÉA DE TRABAJO => git restore]
+[SUBIDO - GITHUB => git push]
+[GITHUB - SUBIDO => git pull]
+[GITHUB - SUBIDO => git clone]
